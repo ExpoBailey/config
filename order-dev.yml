@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: Order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/sell?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    database-platform: org.hibernate.dialect.MySQLDialect
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+ribbon:
+  ReadTimeout: 6000 # 默认5秒
+  ConnectTimeout: 6000 # 默认2秒
+label: dev
