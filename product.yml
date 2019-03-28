@@ -9,3 +9,8 @@ spring:
     hibernate:
       ddl-auto: none
     database-platform: org.hibernate.dialect.MySQLDialect
+  rabbitmq:
+  host: localhost
+  port: 5672
+  username: guest
+  password: guest
