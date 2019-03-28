@@ -5,5 +5,5 @@ zuul:
       serviceId: product
       sensitiveHeaders:
   ignored-patterns:
-    - /product/product/listForOrder
-    - /myProduct/product/listForOrder
+#    - /product/product/listForOrder
+#    - /myProduct/product/listForOrder
