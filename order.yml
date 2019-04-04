@@ -22,4 +22,4 @@ ribbon:
   ReadTimeout: 6000 # 默认5秒
   ConnectTimeout: 6000 # 默认2秒
 label: master
-env: order26
+env: order27
